@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounak Ukey - IIITK</title>
+    <link href="./portfolio.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="./portfolio.html" class="logo">Portfolio</a>
+            <div class="nav-contents">
+                <a href="./portfolio.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./project.html">Projects</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Typing effect container -->
+    <section id="hero">
+        <div class="typing-container">
+            <div class="intro-text">Hello, It's me</div>
+            <div class="name-text">Rounak Ukey</div>
+            <div class="description-text">And I'm <span id="typed-text"></span></div>
+        </div>
+
+        <div class="photo">
+            <img src="./Me_removee.png" alt="Rounak Ukey">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <p>&copy; 2024. All Rights Reserved | Rounak Ukey</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                <img src="./instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                <img src="./facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                <img src="./linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                <img src="./twitter.png" alt="Twitter">
+            </a>
+        </div>
+    </footer>
+
+    <!-- Add the Typed.js CDN -->
+    <script src="./portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed("#typed-text", {
+            strings: ["a Web Developer.", "a Designer.", "an IIITK Student."],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+
+        function toggleMenu() {
+            const navContents = document.querySelector('.nav-contents');
+            const hamburger = document.querySelector('.hamburger');
+
+            // Toggle active class for menu and hamburger
+            navContents.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        };
+    </script>
+</body>
+
+</html>
