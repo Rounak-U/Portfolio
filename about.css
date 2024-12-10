@@ -507,6 +507,11 @@ body {
     transition: 0.3s;
 }
 
+.certif{
+    width: 20%;
+    border: 1px solid #b236ce;
+}
+
 @media (max-width: 768px) {
 
     body,html {
@@ -710,7 +715,7 @@ body {
     }
 
     .certif{
-        width: 70%;
+        width: 80%;
         margin-top: -20px;
         border: 1px solid #b236ce;
     }
@@ -800,9 +805,4 @@ body {
         width: 20px; 
         height: 20px;
     }
-}
-
-.certif{
-    width: 20%;
-    border: 1px solid #b236ce;
 }
