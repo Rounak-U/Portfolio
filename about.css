@@ -801,3 +801,8 @@ body {
         height: 20px;
     }
 }
+
+.certif{
+    width: 20%;
+    border: 1px solid #b236ce;
+}
