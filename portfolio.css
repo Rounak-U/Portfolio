@@ -180,9 +180,6 @@ body {
     filter: brightness(1.5); 
 }
 
-
-
-
 .front{
     border: 1.3px solid #00ffea;
     width: 15%;   
@@ -249,12 +246,17 @@ body {
         margin-top: -10px;
         padding-bottom: 20px;
     }
-
+    
     .nav-contents > a {
         font-size: 1rem; 
         width: 100%; 
         margin-left: 35%;
         margin-top: 10px;
+    }
+
+    .nav-contents.active > a{
+        width: 16%;
+        margin-left: 75%;
     }
 
     #hero {
