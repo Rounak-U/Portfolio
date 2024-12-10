@@ -97,11 +97,11 @@ body {
 }
 
 .text-section {
-    height: 658px;
     width: 100%;
     background: linear-gradient(to bottom,rgb(0, 0, 0), #ce367d);
     margin-top: 90px;
     text-align: center;
+    height: auto;
     margin-bottom: 50px;
 }
 
@@ -121,6 +121,10 @@ body {
     opacity: 0;
     transform: translateY(60px);
     transition: transform 1s ease-out var(--delay, 0s), opacity 1s ease-out var(--delay, 0s);
+}
+
+.text-section p:last-of-type{
+    padding-bottom: 45px;
 }
 .text-section p.show {
     opacity: 1;
