@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./programmer_5873847.png" type="image/x-icon">
-    <title>Rounak Ukey - IIITK</title>
-    <link href="./portfolio.css" rel="stylesheet">
+    <title>Rounak Ukey - About</title>
+    <link href="./about.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,18 +26,112 @@
             </div>
         </div>
     </nav>
-
-    <section id="hero">
-        <div class="typing-container">
-            <div class="intro-text">Hello, It's me</div>
-            <div class="name-text">Rounak Ukey</div>
-            <div class="description-text">And I'm <span id="typed-text"></span></div>
+    <div class="main-section">
+        <div class="text-section">
+            <h1 class="animated-title">About Me</h1>
+            <hr class="aboutme">
+            <p>
+                Hello! I'm <strong>Rounak Ukey</strong>, a passionate web developer with a knack for creating
+                stunning and functional websites. With experience in modern front-end technologies and a love
+                for design, I aim to bring ideas to life in the digital space.
+            </p>
+            <p>
+                My journey started with a curiosity for coding, and now, it's a passion that drives me every day.
+                I'm skilled in HTML, CSS, JavaScript, and more, continuously learning to stay at the forefront
+                of web development trends.
+            </p>
+            <p>
+                Beyond coding, I enjoy exploring new design inspirations, collaborating on innovative projects,
+                and contributing to open-source communities. My goal? To craft experiences that resonate with users
+                and leave a lasting impression.
+            </p>
         </div>
+    </div>
 
-        <div class="photo">
-            <img src="./Me_removee.png" alt="Rounak Ukey">
+    <div class="frontend">
+        <h1>Frontend</h1>
+        <hr class="front">
+        <div class="languages">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>Angular</p>
+        </div>
+    </div>
+
+    <div class="backend">
+        <h1>Backend</h1>
+        <hr class="front">
+        <div class="languages2">
+            <p>Python</p>
+            <p>PostgreSQL</p>
+            <p>Firebase</p>
+            <p>Node Js</p>
+            <p>Express Js</p>
+        </div>
+    </div>
+
+
+
+    <section id="skillslang" class="skillslang">
+        <h2>Programming Languages & Skills</h2>
+        <hr class="Programming">
+        <div class="wrapper">
+            <div class="item item1">
+                <img src="./java.png" alt="Microsoft" class="prog-icon"> Java
+            </div>
+            <div class="item item2">
+                <img src="./c++.png" alt="Google" class="prog-icon"> C++
+            </div>
+            <div class="item item3">
+                <img src="./python.png" alt="Amazon" class="prog-icon"> Python
+            </div>
+            <div class="item item4">
+                <img src="./html.png" alt="Apple" class="prog-icon"> HTML
+            </div>
+            <div class="item item5">
+                <img src="./css.png" alt="IBM" class="prog-icon"> CSS
+            </div>
+            <div class="item item6">
+                <img src="./js.png" alt="Tesla" class="prog-icon"> JavaScript
+            </div>
+            <div class="item item7">
+                <img src="./react.png" alt="Facebook" class="prog-icon"> React
+            </div>
+            <div class="item item8">
+                <img src="./angular.png" alt="Intel" class="prog-icon"> Angular
+            </div>
+            <div class="item item9">
+                <img src="./flut.png" alt="Oracle" class="prog-icon"> Flutter
+            </div>
+            <div class="item item10">
+                <img src="./fire.png" alt="Salesforce" class="prog-icon"> Firebase
+            </div>
         </div>
     </section>
+
+    <div class="record">
+        <div class="certi">
+            <h1>Certifications</h1>
+            <hr class="certifi">
+            <nav>
+                <a href="./Python.pdf" download>UDEMY: The Complete Python Developer.</a>
+                <a href="./Web.pdf" download>UDEMY: The Complete Web Developer.</a>
+                <a href="./about.html">UDEMY: The Complete Flutter Developer</a>
+            </nav>
+            <h1 class="cvr">CV & Resume</h1>
+            <hr class="certif">
+            <nav>
+                <div class="cv"><a href="./about.html">Download CV</a>
+                    <a href="./about.html">Download Resume</a>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <!-- Footer -->
 
     <footer class="footer-section">
         <p>&copy; 2024. All Rights Reserved | Rounak Ukey</p>
@@ -57,25 +151,7 @@
         </div>
     </footer>
 
-    <script src="./portfolio.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <script>
-        var typed = new Typed("#typed-text", {
-            strings: ["a Web Developer.", "a Designer.", "an IIITK Student."],
-            typeSpeed: 100,
-            backSpeed: 60,
-            loop: true
-        });
-
-        function toggleMenu() {
-            const navContents = document.querySelector('.nav-contents');
-            const hamburger = document.querySelector('.hamburger');
-
-            navContents.classList.toggle('active');
-            hamburger.classList.toggle('active');
-        };
-    </script>
+    <script src="./about.js"></script>
 </body>
 
 </html>
