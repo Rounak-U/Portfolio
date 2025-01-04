@@ -62,6 +62,11 @@ body {
     box-shadow: 0px 4px 6px rgba(54, 206, 196, 0.5);
 }
 
+.navbar.scrolled {
+    backdrop-filter: blur(10px); 
+    background: rgba(0, 0, 0, 0.8); 
+}
+
 .logo {
     font-size: 1.8rem;
     color: #36cec4;
@@ -72,12 +77,36 @@ body {
 }
 
 .content {
-    padding: 120px 20px 50px;
+    padding: 160px 20px 140px 50px;
     text-align: center;
     background: linear-gradient(to bottom, #000, #111);
     animation: fadeIn 1.2s ease-in-out;
     margin-top: -28px;
 }
+
+.contact-info{
+    padding-top: 2%;
+}
+
+.contact-info span
+{
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    padding: 4px 4px 4px;
+    color: cyan;
+}
+
+.contact-info p{
+    padding-top: 1%;
+}
+
+.contact-info strong{
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
 
 @keyframes fadeIn {
     from {
@@ -105,56 +134,6 @@ body {
     margin: 0 auto;
 }
 
-.contact-form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    margin-top: 50px;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.contact-form label {
-    font-size: 1rem;
-    text-align: left;
-    color: #fff;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 10px 15px;
-    font-size: 1rem;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    background: #111;
-    color: #fff;
-    transition: border-color 0.3s ease-in-out;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    outline: none;
-    border-color: #36cec4;
-    background: #222;
-}
-
-.contact-form button {
-    padding: 12px 20px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #000;
-    background-color: #36cec4;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.contact-form button:hover {
-    background-color: #28b2a6;
-    transform: translateY(-3px);
-    box-shadow: 0px 4px 6px rgba(54, 206, 196, 0.5);
-}
 
 .footer-section {
     background-color: #000000; 
@@ -170,16 +149,18 @@ body {
 .footer-section p {
     margin: 0; 
     line-height: 4; 
+    margin-top: -1%;
+    margin-bottom: -10%;
 }
 
 .social-media {
     margin-left: 60%;
-    margin-top: -54px;
+    margin-top: 6.2%;
     padding-bottom: 20px;
 }
 
 .social-media a {
-    margin: 0 25px;
+    margin: 0 25px; 
     display: inline-block; 
     text-decoration: none;
     color: #fff;
@@ -282,10 +263,6 @@ body {
 
     }
 
-    .contact-form button{
-        margin-top: 20px;
-    }
-
     .footer-section {
         font-size: 0.8rem; 
         padding: 10px 15px; 
@@ -296,6 +273,10 @@ body {
         margin-left: 75%;
     }
 
+    .content-wrapper{
+        margin-right: 8%;
+    }
+
     .social-media {
         margin-left: 0;
         margin-top: 0px;
@@ -303,6 +284,7 @@ body {
 
     .social-media a {
         margin: 0 15px; 
+        margin-top: 10%;
     }
 
     .social-media img {
