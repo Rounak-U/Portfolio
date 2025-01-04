@@ -85,28 +85,30 @@ body {
 }
 
 .intro-text {
-    font-size: 2rem; 
+    font-size: 28px; 
+    letter-spacing: 1.5px;
     margin: 0;
     padding: 5px 0;
     color: #ffffff;
 }
 
 .name-text {
-    font-size: 4rem; 
-    font-weight: bold;
+    font-size: 45px; 
+    font-weight: 700;
     color: rgb(12, 219, 192); 
     margin: 0;
     margin-top: 10px; 
 }
 
 .description-text {
-    font-size: 2rem; 
+    font-size: 35px; 
+    letter-spacing: 1px;
     margin: 0;
     padding: 5px 0;
 }
 
 #typed-text {
-    background: linear-gradient(90deg, #00ffd5 40%, #793ee6); 
+    background: linear-gradient(90deg, #00ffd5 80%, #e63edb); 
     background-clip: content-box;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -120,11 +122,11 @@ body {
 
 .photo img {
     width: 100%;
-    max-width: 350px; 
+    max-width: 320px; 
     height: auto;
     border-radius: 50%;
     box-shadow: 2px 2px 50px rgba(21, 149, 145, 0.7);
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 
@@ -159,11 +161,13 @@ body {
 .footer-section p {
     margin: 0; 
     line-height: 4; 
+    margin-top: -1%;
+    margin-bottom: -10%;
 }
 
 .social-media {
     margin-left: 60%;
-    margin-top: -54px;
+    margin-top: 6.2%;
     padding-bottom: 20px;
 }
 
@@ -299,6 +303,7 @@ body {
 
     .social-media a {
         margin: 0 15px; 
+        margin-top: 10%;
     }
 
     .social-media img {
