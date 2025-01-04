@@ -720,6 +720,7 @@ body {
 
     .certifi{
         width: 70%;
+        margin-top: -5%;
     }
 
     .certi a{
@@ -730,6 +731,10 @@ body {
         font-size: 1.2rem;
         padding: 5px;
         width: 80%;
+    }
+
+    .certi a{
+        padding-bottom: 15px;
     }
 
     .certif{
@@ -775,6 +780,7 @@ body {
         width: 80%;
         padding-top: 10px;
         height: 30px;
+        padding-bottom: 5px;
     }
 
     .nav-contents.active > a{
